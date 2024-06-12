@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/react-vite-shadcn-ui",
+  /** Deploy vercel thi ko can base */
+  //base: "/react-vite-shadcn-ui",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
